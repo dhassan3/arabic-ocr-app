@@ -16,7 +16,7 @@ Upload scanned PDFs or images with Arabic text.
 Extracts text using PaddleOCR (high accuracy for Arabic) and creates an editable .docx with proper RTL formatting.
 """)
 
-# Cache PaddleOCR to load only once (fixes reinitialization error)
+# Cache PaddleOCR import and initialization to load only once (fixes "PDX initialized" error)
 @st.cache_resource
 def load_paddle_ocr():
     from paddleocr import PaddleOCR
