@@ -1,3 +1,7 @@
+import sys
+import streamlit as st
+
+st.write("🔍 Python version:", sys.version)
 import streamlit as st
 from PIL import Image
 from pdf2image import convert_from_bytes
