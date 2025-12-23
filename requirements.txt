@@ -1,7 +1,7 @@
+paddleocr>=2.8.0
 streamlit
-easyocr
 pillow
 pdf2image
 arabic-reshaper==3.0.0
 python-bidi==0.4.2
-poppler-utils  # For PDF support (add to packages.txt if needed)
+poppler-utils  # Add to packages.txt below
